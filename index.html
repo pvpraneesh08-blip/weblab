@@ -1,18 +1,167 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Web Lab</title>
-</head>
-<body>
-    <h1>Web Lab Programs</h1>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Lab Programs</title>
 
-    <ul>
-        <li><a href="Lab1.html">Lab 1</a></li>
-        <li><a href="Lab2.html">Lab 2</a></li>
-        <li><a href="Lab3.html">Lab 3</a></li>
-        <li><a href="Lab4.xml">Lab 4</a></li>
-        <li><a href="Lab5.php">Lab 5</a></li>
-    </ul>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #080d20, #17133b, #241044);
+    color: white;
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.header .tag {
+    color: #b69aff;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: clamp(36px, 6vw, 58px);
+    margin: 18px 0;
+    background: linear-gradient(90deg, #fff, #b69aff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.header p {
+    color: #aaaac5;
+    font-size: 16px;
+}
+
+.lab-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.lab-card {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.07);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.lab-card:hover {
+    transform: translateY(-9px);
+    border-color: #a78bfa;
+    background: rgba(167,139,250,0.14);
+    box-shadow: 0 12px 35px rgba(124,58,237,0.2);
+}
+
+.icon {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.lab-card h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.lab-card p {
+    color: #aaaac5;
+    font-size: 14px;
+}
+
+.arrow {
+    display: block;
+    text-align: right;
+    color: #b69aff;
+    font-size: 23px;
+    margin-top: 18px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 65px;
+    color: #8585a5;
+    font-size: 13px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="header">
+        <div class="tag">BMSIT • CSE</div>
+        <h1>Web Lab Programs</h1>
+        <p>Explore and access your web technology laboratory programs.</p>
+    </header>
+
+    <main class="lab-grid">
+
+        <a href="lab1.html" class="lab-card">
+            <div class="icon">💻</div>
+            <h2>Lab 01</h2>
+            <p>Explore Laboratory Program 1</p>
+            <span class="arrow">↗</span>
+        </a>
+
+        <a href="lab2.html" class="lab-card">
+            <div class="icon">🌐</div>
+            <h2>Lab 02</h2>
+            <p>Explore Laboratory Program 2</p>
+            <span class="arrow">↗</span>
+        </a>
+
+        <a href="lab3.html" class="lab-card">
+            <div class="icon">⚡</div>
+            <h2>Lab 03</h2>
+            <p>Explore Laboratory Program 3</p>
+            <span class="arrow">↗</span>
+        </a>
+
+        <a href="lab4.html" class="lab-card">
+            <div class="icon">🎨</div>
+            <h2>Lab 04</h2>
+            <p>Explore Laboratory Program 4</p>
+            <span class="arrow">↗</span>
+        </a>
+
+        <a href="lab5.html" class="lab-card">
+            <div class="icon">🚀</div>
+            <h2>Lab 05</h2>
+            <p>Explore Laboratory Program 5</p>
+            <span class="arrow">↗</span>
+        </a>
+
+    </main>
+
+    <footer>
+        © 2026 Web Lab Programs | BMSIT CSE
+    </footer>
+
+</div>
+
 </body>
 </html>

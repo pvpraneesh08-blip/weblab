@@ -1,0 +1,53 @@
+*{
+	display: block;
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+USN
+{
+	color: rosybrown;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-left: -5px;
+}
+
+NAME
+{
+	color: darkgoldenrod;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-left: -5px;
+}
+
+COLLEGE
+{
+	color: blue;
+	font-size: 27px;
+	margin-top: 20px;
+	margin-left: -5px;
+}
+
+BRANCH
+{
+	color: green;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-left: -5px;
+}
+
+YEAR
+{
+	color: black;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: -5px;
+}
+
+EMAIL
+{
+	color: red;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-left: -5px;
+}

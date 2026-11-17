@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="4styles.css"?>
+<SD>
+	<STUDENT>
+		<USN>USN      :  1BY24CS055</USN>
+		<NAME>NAME     :  CHALLA GREESHMANTH</NAME>
+		<COLLEGE>COLLEGE   :  BMSIT</COLLEGE>
+		<BRANCH>BRANCH   :  CSE</BRANCH>
+		<YEAR>YEAR     :  2024</YEAR>
+		<EMAIL>EMAIL    :  greeshu123@gmail.com</EMAIL>
+		<p></p>
+
+    </STUDENT>
+
+    <STUDENT>
+		<USN>USN      :  1BY24CS131</USN>
+		<NAME>NAME     :  	KRISHNA CHARAN P</NAME>
+		<COLLEGE>COLLEGE   :  BMSIT</COLLEGE>
+		<BRANCH>BRANCH   :  CSE</BRANCH>
+		<YEAR>YEAR     :  2024</YEAR>
+		<EMAIL>EMAIL    :  krishnacharan18@gmail.com</EMAIL>
+		<p></p>
+    </STUDENT>
+
+    <STUDENT>
+		<USN>USN      :  1BY24CS145</USN>
+		<NAME>NAME     :  Raghu</NAME>
+		<COLLEGE>COLLEGE   :  Bmsit</COLLEGE>
+		<BRANCH>BRANCH   :  CSE</BRANCH>
+		<YEAR>YEAR     :  2024</YEAR>
+		<EMAIL>EMAIL    :  raghu18@gmail.com</EMAIL>
+		<p></p>
+    </STUDENT>
+</SD>	
